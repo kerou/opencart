@@ -35,6 +35,7 @@ class Session {
 			}
 
 			session_set_cookie_params(0, '/');
+			//session_save_path("/tmp");
 			session_start();
 		}
 		
